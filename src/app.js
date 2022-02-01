@@ -93,7 +93,6 @@ App = {
       const taskId = task[0].toNumber()
       const taskContent = task[1]
       const taskCompleted = task[2]
-      console.log(taskCompleted)
       // Create the html for the task
       const $newTaskTemplate = $taskTemplate.clone()
       $newTaskTemplate.find('.content').html(taskContent)
